@@ -1,0 +1,1 @@
+export const TYPE_CONTAINER = 'type-container';
