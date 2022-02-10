@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .book-type {
     width: 80%;
     background-color: aqua;
@@ -5,4 +10,23 @@
 
 .type-container {
     width: 30rem;
+}
+
+.book-image {
+    width: 20rem;
+    height: 25rem;
+}
+
+.book-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: row;
+    margin: 3rem;
+    gap: 3rem;
 }
